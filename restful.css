@@ -1,0 +1,57 @@
+section{
+  margin-top: 3rem;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  background-color: #EDEDED;
+  -webkit-box-shadow: 10px 10px 17px 1px rgba(0,0,0,0.54);
+  -moz-box-shadow: 10px 10px 17px 1px rgba(0,0,0,0.54);
+  box-shadow: 10px 10px 17px 1px rgba(0,0,0,0.54);
+}
+button {
+  margin: .5rem;
+}
+thead {
+  ackground-color: #e0e0e0;
+  color: #000;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 1px solid #cbcbcb;
+}
+
+td, th {
+  border-left: 1px solid #cbcbcb;
+  border-width: 0 0 0 1px;
+  font-size: inherit;
+  margin: 0;
+  overflow: visible;
+  padding: .5em 1em;
+  background-color: white;
+}
+#create{
+  display: none;
+}
+#edit{
+  display: none;
+}
+#delete{
+  display: none;
+}
+form{
+  margin-left: 5px;
+}
+
+input {
+  height: 2rem;
+  width: 250px;
+  display: block;
+  text-align: left;
+  margin-bottom: 3px;
+}
